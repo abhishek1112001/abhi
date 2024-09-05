@@ -4,8 +4,8 @@ const icon = document.querySelector(".icon");
 const weather = document.querySelector(".weather");
 const temperature = document.querySelector(".temperature");
 const description = document.querySelector(".description");
-const encodedKey = "MTgwNjFiMTcxNWJhNDE3OGRjNjI2OTE4MWY3MTg0N2U=";
-const apiKey = atob(encodedKey);
+const key = "MTgwNjFiMTcxNWJhNDE3OGRjNjI2OTE4MWY3MTg0N2U=";
+const apiKey = atob(key);
 
 btn.addEventListener("click", () => {
   let city = input.value;
